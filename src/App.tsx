@@ -2,13 +2,13 @@ import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-emerald-950 to-slate-900">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">A</span>
               </div>
               <span className="text-white font-semibold text-lg">AtelierCode</span>
@@ -22,7 +22,7 @@ function App() {
               <a href="https://github.com/jariahh/ateliercode" className="text-slate-300 hover:text-white transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
               </a>
-              <a href="#download" className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-medium transition-colors">
+              <a href="#download" className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-medium transition-colors">
                 Download
               </a>
             </div>
@@ -33,12 +33,12 @@ function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-8">
-            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-            <span className="text-indigo-300 text-sm font-medium">Now in Beta</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 mb-8">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="text-emerald-300 text-sm font-medium">Now in Beta</span>
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Code from <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">anywhere</span>,<br />
+            Code from <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">anywhere</span>,<br />
             on any machine
           </h1>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
@@ -46,7 +46,7 @@ function App() {
             Access your projects, chat history, and tools from your desktop, laptop, or browser.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#download" className="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold text-lg transition-all hover:scale-105 shadow-lg shadow-indigo-500/25">
+            <a href="#download" className="w-full sm:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-semibold text-lg transition-all hover:scale-105 shadow-lg shadow-emerald-500/25">
               Download for Free
             </a>
             <a href="#demo" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-white rounded-xl font-semibold text-lg transition-all border border-white/10">
@@ -68,12 +68,12 @@ function App() {
                 <div className="bg-slate-900/50 rounded-lg p-4 text-left">
                   <h4 className="text-slate-400 text-xs uppercase tracking-wide mb-3">Machines</h4>
                   <div className="space-y-2">
-                    <div className="flex items-center gap-2 p-2 rounded bg-indigo-500/20 border border-indigo-500/30">
-                      <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                    <div className="flex items-center gap-2 p-2 rounded bg-emerald-500/20 border border-emerald-500/30">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                       <span className="text-white text-sm">Desktop PC</span>
                     </div>
                     <div className="flex items-center gap-2 p-2 rounded hover:bg-slate-800/50">
-                      <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                      <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                       <span className="text-slate-300 text-sm">MacBook Pro</span>
                     </div>
                     <div className="flex items-center gap-2 p-2 rounded hover:bg-slate-800/50">
@@ -88,7 +88,7 @@ function App() {
                     {['ateliercode', 'my-saas-app', 'portfolio-site', 'api-server'].map((project) => (
                       <div key={project} className="p-3 rounded-lg bg-slate-800/50 hover:bg-slate-800 transition-colors cursor-pointer">
                         <div className="flex items-center gap-2 mb-1">
-                          <svg className="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
+                          <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" /></svg>
                           <span className="text-white text-sm font-medium">{project}</span>
                         </div>
                         <p className="text-slate-500 text-xs">Last active 2h ago</p>
@@ -169,8 +169,8 @@ function App() {
                 description: "No app installed? Access your machines from any browser with our web client. Full functionality, anywhere."
               }
             ].map((feature, index) => (
-              <div key={index} className="p-6 rounded-2xl bg-slate-800/30 border border-slate-700/50 hover:border-indigo-500/50 transition-all group">
-                <div className="w-14 h-14 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 group-hover:bg-indigo-500/20 transition-colors">
+              <div key={index} className="p-6 rounded-2xl bg-slate-800/30 border border-slate-700/50 hover:border-emerald-500/50 transition-all group">
+                <div className="w-14 h-14 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4 group-hover:bg-emerald-500/20 transition-colors">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
@@ -239,7 +239,7 @@ function App() {
               <ul className="space-y-3 mb-8">
                 {["Up to 3 machines", "Unlimited projects", "AI chat integration", "P2P file sync", "Community support"].map((feature) => (
                   <li key={feature} className="flex items-center gap-3 text-slate-300">
-                    <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <svg className="w-5 h-5 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                     {feature}
                   </li>
                 ))}
@@ -249,11 +249,11 @@ function App() {
               </a>
             </div>
 
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-600 relative overflow-hidden">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-600 relative overflow-hidden">
               <div className="absolute top-4 right-4 px-3 py-1 bg-white/20 rounded-full text-white text-sm font-medium">Popular</div>
               <h3 className="text-2xl font-bold text-white mb-2">Pro</h3>
-              <p className="text-indigo-200 mb-6">For power users and teams</p>
-              <div className="text-4xl font-bold text-white mb-6">$12<span className="text-lg text-indigo-200 font-normal">/month</span></div>
+              <p className="text-emerald-200 mb-6">For power users and teams</p>
+              <div className="text-4xl font-bold text-white mb-6">$12<span className="text-lg text-emerald-200 font-normal">/month</span></div>
               <ul className="space-y-3 mb-8">
                 {["Unlimited machines", "Team collaboration", "Priority TURN servers", "Advanced security", "Priority support", "Early access to features"].map((feature) => (
                   <li key={feature} className="flex items-center gap-3 text-white">
@@ -262,7 +262,7 @@ function App() {
                   </li>
                 ))}
               </ul>
-              <a href="#download" className="block text-center px-6 py-3 bg-white text-indigo-600 rounded-xl font-semibold transition-all hover:bg-indigo-50">
+              <a href="#download" className="block text-center px-6 py-3 bg-white text-emerald-600 rounded-xl font-semibold transition-all hover:bg-emerald-50">
                 Start Free Trial
               </a>
             </div>
@@ -294,7 +294,7 @@ function App() {
           </div>
 
           <p className="text-slate-500 text-sm mt-6">
-            Or access from your browser at <a href="#" className="text-indigo-400 hover:text-indigo-300">app.ateliercode.dev</a>
+            Or access from your browser at <a href="#" className="text-emerald-400 hover:text-emerald-300">app.ateliercode.dev</a>
           </p>
         </div>
       </section>
@@ -304,7 +304,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">A</span>
               </div>
               <span className="text-white font-semibold text-lg">AtelierCode</span>
