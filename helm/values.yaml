@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: ghcr.io/jariahh/ateliercode-website
   pullPolicy: IfNotPresent
-  tag: "d82a260"
+  tag: "0c3aca7"
 
 imagePullSecrets: []
 nameOverride: ""
