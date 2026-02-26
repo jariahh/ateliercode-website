@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/jariahh/ateliercode-website.git
+    repoURL: https://git.unveiledsoftwaresolutions.com/jariah/ateliercode-website.git
     targetRevision: master
     path: helm
     helm:

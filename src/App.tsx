@@ -86,7 +86,7 @@ function App() {
                 )}
               </button>
               <a
-                href="https://github.com/jariahh/ateliercode"
+                href="https://git.unveiledsoftwaresolutions.com/jariah/ateliercode"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -613,7 +613,7 @@ function App() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '28px', fontSize: '14px' }}>
               <a href="/privacy" style={{ color: 'var(--footer-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Privacy</a>
               <a href="/terms" style={{ color: 'var(--footer-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Terms</a>
-              <a href="https://github.com/jariahh/ateliercode" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--footer-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>GitHub</a>
+              <a href="https://git.unveiledsoftwaresolutions.com/jariah/ateliercode" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--footer-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>GitHub</a>
             </div>
 
             {/* Copyright */}
